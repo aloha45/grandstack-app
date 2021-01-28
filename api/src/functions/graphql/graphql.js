@@ -1,5 +1,6 @@
 // This module can be used to serve the GraphQL endpoint
 // as a lambda function
+// this is a test app
 
 const { ApolloServer } = require('apollo-server-lambda')
 const { makeAugmentedSchema } = require('neo4j-graphql-js')
